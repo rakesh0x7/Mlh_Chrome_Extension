@@ -1,0 +1,12 @@
+{
+    "name": "MLH Launcher",
+    "version":"1.0",
+    "description":"Quick launch",
+    "manifest_version":2,
+    "icons":{"128":"images.jpg"},
+    "browser_action":{
+        "default_popup":"main.html",
+        "default_icon":"download.png"
+    },
+    "permissions":["activeTab"]
+}
